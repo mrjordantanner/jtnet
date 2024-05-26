@@ -1,0 +1,16 @@
+{
+  "name": "jtnet",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "keywords": [],
+  "author": "Jordan T. Smith",
+  "license": "ISC",
+  "dependencies": {
+    "git-filter-repo": "^0.0.30",
+    "parcel": "^2.12.0"
+  }
+}
