@@ -8,9 +8,7 @@
 @media only screen and (max-width: 800px) {
 .main-wrapper {
     width: 95%;
-}
-
-
+    }
 }
 
 a.contact-link {
@@ -75,8 +73,6 @@ z-index:2;
 text-align: center;
 }
 
-
-
 .divider {
 display:block;
 position:relative;
@@ -85,37 +81,14 @@ width:50%;
 margin:20px 10% 20px 10%;
 background-color:white;
 }
-    
-.dropdown-submenu {
-position: relative !important;
-}
-
-.dropdown-submenu .dropdown-menu {
-top: 0 !important;
-left: 100% !important;
-margin-top: -1px !important;
-}
-
 
 .w-50-100 {
 width: 50%;
 }
 
-.navbar-fixed-top {
-position: fixed;
-right: 0;
-left: 0;
-z-index: 1030;
-}
-
 .bg-black {
 background-color: #060606;
 }
-
-.p {
-    font-size: 0.675rem;
-}
-
 
 @media only screen and (max-width: 540px ) {
 a.contact-link {margin:auto auto auto auto; padding: 0 .3em 0 .3em;

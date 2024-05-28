@@ -75,33 +75,12 @@ a.contact-link:hover {
   position: relative;
 }
 
-.dropdown-submenu {
-  position: relative !important;
-}
-
-.dropdown-submenu .dropdown-menu {
-  margin-top: -1px !important;
-  top: 0 !important;
-  left: 100% !important;
-}
-
 .w-50-100 {
   width: 50%;
 }
 
-.navbar-fixed-top {
-  z-index: 1030;
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-
 .bg-black {
   background-color: #060606;
-}
-
-.p {
-  font-size: .675rem;
 }
 
 @media only screen and (width <= 540px) {
@@ -131,4 +110,4 @@ a.contact-link:hover {
     width: 100%;
   }
 }
-/*# sourceMappingURL=tyle.a8bbac2a.css.map */
+/*# sourceMappingURL=index.a8bbac2a.css.map */
