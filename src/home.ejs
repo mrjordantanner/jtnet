@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%- include('partials/head.ejs') %>
+</head>
+
+<body class="fade-out">
+    <script>
+        $(function() {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+
+    <!-- Navbar -->
+    <%- include('partials/navbar.ejs') %>
+
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="main-wrapper">
+            <br><br><br><br>
+            <img width="70%" style="margin-left:30%;" src="../src/assets/images/JTS-Logo-1.png" alt="JTS">
+            <br><br><br><br>
+
+            <!-- Divider -->
+            <div style="background-color: white; height: 2px; width:100%;"></div>
+
+            <br>
+            <h1>WELCOME TO <br>jordantanner.net</h1>
+            <br>
+
+            <div style="font-size: 16px; color: #E0E0E0">
+                <h4>Howdy!</h4>
+                <br>
+                <p>I'm Jordan, a musician, software engineer, and game developer in Austin, Texas.
+                Please feel free to check out my work, follow me on social media, or drop me a line. 
+                
+                
+                <ul>
+                  <li><a href="../src/games/tyle.html">Tyle (game)</a></li>
+                  <li><a href="../src/music/lofi-beats.html">LoFi Beats</a></li>
+                </ul>
+              </p>
+                <br><br><br>
+            </div>
+
+            <!-- Divider -->
+            <div style="background-color: white; height: 2px; width:100%;"></div>
+
+            <div>
+                <h1>PROJECTS</h1>
+                <br>
+                <h3><i>Games</i></h3>
+                <a href="../src/games/tyle.html"><img src="../src/assets/images/Tyle-Banner-1.png" class="bright-hover" width="100%" style="padding:20px;" alt="Tyle (Video Game)"></a>
+                <br><br><br>
+                <h3><i>Music</i></h3>
+                <a href="../src/music/lofi-beats.html"><img src="../src/assets/images/TWINE-Banner-1.png" class="bright-hover" width="100%" style="padding:20px;" alt="Lo Fi Hip Hop Music"></a>
+                <br><br>
+                <a href="../src/music/studio-work.html"><img src="../src/assets/images/studio-work-banner.png" class="bright-hover" width="100%" style="padding:20px;" alt="Studio & Session Work"></a>
+                <br><br><br><br>
+            </div>
+        </div>
+
+    <!-- CONTACT -->
+    <%- include('partials/footer.ejs') %>
+        
+    </div>
+</body>
+</html>

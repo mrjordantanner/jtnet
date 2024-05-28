@@ -3,33 +3,26 @@
   -webkit-font-smoothing: antialiased;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   background-color: #131313;
-  -webkit-opacity: 1;
-  -webkit-transition: .5s opacity;
-  -moz-opacity: 1;
-  -moz-transition: .5s opacity;
-  -o-opacity: 1;
-  -o-transition: .5s opacity;
   opacity: 1;
-  transition: .5s opacity;
+  transition: 0.5s opacity;
+  font-family: 'Roboto', sans-serif; 
 }
 
 body.fade-out {
-  -webkit-opacity: 0;
-  -webkit-transition: none;
-  -moz-opacity: 0;
-  -moz-transition: none;
-  -o-opacity: 0;
-  -o-transition: none;
   opacity: 0;
   transition: none;
 }
 
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'Roboto', sans-serif; 
+}
+
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   color: #239fc3;
 }
@@ -74,7 +67,7 @@ p {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  //user-drag: none;
 }
 
 audio {

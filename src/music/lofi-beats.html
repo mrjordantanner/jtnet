@@ -1,51 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-  <title>jordantanner.net</title>
-
-  <!-- Core Meta Data -->
-  <meta name="author" content="Jordan Tanner">
-  <meta name="description" content="Portfolio of Producer and Developer Jordan Tanner Smith.">
-  <meta name="keywords"
-    content="recording, artist, design, music, indie, rock, austin, front end, web development, graphic design, audio production, gamedev, video games, game development, unity, games">
-
-  <!-- Open Graph Meta Data -->
-  <meta property="og:description" content="Portfolio of Producer and Developer Jordan Tanner Smith.">
-  <meta property="og:image" content="../assets/images/JTNET-Logo-1.png">
-  <meta property="og:site_name" content="jordantanner.net">
-  <meta property="og:title" content="jordantanner.net">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://www.jordantanner.net">
-
-  <!-- Twitter Card Meta Data -->
-  <meta name="twitter:card" content="@mrjordantanner">
-  <meta name="twitter:site" content="http://www.jordantanner.net">
-  <meta name="twitter:creator" content="@mrjordantanner">
-  <meta name="twitter:title" content="JTNET">
-  <meta name="twitter:description" content="Website of Musician and Producer Jordan Tanner.">
-  <meta name="twitter:image" content="">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
-  <!-- Favicon -->
-  <link rel="apple-touch-icon-precomposed" href="../assets/images/JTNET-Favicon-180x180.png">
-  <link rel="icon" href="../assets/images/JTNET-Favicon-196x196.png">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/CSS/styles.scss">
-
-  <!-- JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="../assets/js/app.js"></script>
+  <%- include('partials/head.ejs') %>
 </head>
 
 <body class="fade-out">
@@ -55,12 +11,8 @@
     });
   </script>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-fixed-top">
-      <a href="../../index.html" class="navbar-brand d-flex mr-auto">
-          <img src="../assets/images/JTS-Logo-1-Tiny.png" alt="JTS">
-      </a>
-  </nav>
+  <!-- Navbar -->
+  <%- include('partials/navbar.ejs') %>
 
   <!-- CONTENT -->
   <div class="container-fluid">
@@ -159,28 +111,8 @@
       <br>
     </div>
 
-
-
-    <div id="contact" class="contact-container">
-      <div class="contact-social-bar">
-          <a class="contact-link" target="_blank" href="http://www.youtube.com/c/misterjordantanner">
-              <img src="../assets/images/youtube-red-small.png"></a>
-          <a class="contact-link" target="_blank" href="http://www.instagram.com/mrjordantanner">
-              <img src="../assets/images/instagram-red-small.png"></a>
-          <a class="contact-link" target="_blank" href="http://www.snapchat.com/add/mrjordantanner">
-              <img src="../assets/images/snapchat-red-small.png"></a>
-          <a class="contact-link" target="_blank" href="http://jordantanner.itch.io">
-              <img src="../assets/images/itch-red-small.png"></a>
-          <a class="contact-link" target="_blank" href="http://www.facebook.com/hearthevincents">
-              <img src="../assets/images/facebook-red-small.png"></a>
-          <a class="contact-link" target="_blank" href="http://www.twitter.com/mrjordantanner">
-              <img src="../assets/images/twitter-red-small.png"></a>
-          <a class="contact-link" target="_blank" href="mailto:jordan@jordantanner.net">
-              <img src="../assets/images/email-red-small.png"></a>
-      </div>
-      <div class="contact-copyright">Built with love by Jordan<br>COPYRIGHT &copy; 2016-2024 JORDAN T. SMITH</div>
-  </div>
-
+    <!-- CONTACT -->
+    <%- include('partials/footer.ejs') %>
 
   </div>
 

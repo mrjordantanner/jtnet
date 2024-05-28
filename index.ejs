@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs') %>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <style>
+      #scene {
+          position: relative;
+          width: 100%;
+          height: 100vh;
+      }
+
+      .layer {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+      }
+
+  </style>
+
+
+
+</head>
+
+<body class="fade-out" style="overflow: hidden; background-color: black;">
+    <script type="module">
+        $(function() {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+
+<!-- Content -->
+
+    <div id="scene">
+
+      <img data-depth="0.2" src="src/assets/images/geometric_tiles_1.gif"
+      class="parallax-layer z-background blur-self-2 unselectable" >
+
+      <div data-depth="0.4" class="fullscreen-wrapper">
+        <div id="logo-rollover" class="z-midground blur-self-1  unselectable"></div>
+      </div>
+
+      <img data-depth="0.6" src="src/assets/images/geometric_tiles_2.png"
+      class="parallax-layer z-foreground blur-self-1 unselectable" >
+
+
+    </div>
+    
+
+</body>
+</html>
